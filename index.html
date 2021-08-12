@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- =============FONT AWESOME LING GOSE TO HERE============== -->
+     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+     <script src="https://kit.fontawesome.com/a75bfe105f.js" crossorigin="anonymous"></script>
+
+    <!-- ============css link gose to here=========== -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Facebook Clone</title>
+</head>
+<body>
+    
+     <!-- navigation bar section -->
+
+     <nav>
+         <div class="nav-left">
+             <img src="img/logo/logo.png" alt="" class="logo">
+
+             <ul>
+                 <li><i class='bx bxs-bell-ring'></i></li>
+                 <li><i class='bx bxs-message-alt'></i></li>
+                 <li><i class='bx bxs-videos'></i></li>
+                 
+             </ul>
+         </div>
+
+         <div class="nav-right">
+          <div class="search__box">
+              <li><i class='bx bx-search'></i></li>
+              <input type="text" placeholder="Search">
+          </div>
+          <div class="nav__user__icon online" onclick="settingsMenuToggle()">
+              <img src="img/profile/profile.jpg" alt="">
+          </div>
+         </div>
+
+         <!-- dowpdown menu -->
+         <!-- setting's menu -->
+         <div class="settings__menu">
+
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+             <div class="settings__menu-inner">
+
+             
+            <div class="user__profile">
+                <img src="img/profile/profile.jpg" alt="">
+                  <div>
+                      <p>Mega Aliea</p>
+                     <a href="profile.html">See your Profile</a>
+                  </div>
+              </div>
+                   <hr>
+              <div class="user__profile">
+                <img src="img/file/images/feedback.png" alt="">
+                  <div>
+                      <p>Give Feedback</p>
+                     <a href="#">Help us to imporve the new design</a>
+                  </div>
+              </div>
+              <hr>
+
+              <div class="settings__links">
+                  <img src="img/file/images/setting.png" alt="" class="setting__icons">
+                  <a href="#">Settings & Privecy <img src="img/file/images/arrow.png" width="10px" alt=""></a>
+              </div>
+
+              <div class="settings__links">
+                <img src="img/file/images/help.png" alt="" class="setting__icons">
+                <a href="#">Help & Support <img src="img/file/images/arrow.png" width="10px" alt=""></a>
+            </div>
+
+            <div class="settings__links">
+                <img src="img/file/images/display.png" alt="" class="setting__icons">
+                <a href="#">Display & Accessibillity <img src="img/file/images/arrow.png" width="10px" alt=""></a>
+            </div>
+            <div class="settings__links">
+                <img src="img/file/images/logout.png" alt="" class="setting__icons">
+                <a href="#">Settings & Privecy <img src="img/file/images/arrow.png" width="10px" alt=""></a>
+            </div>
+            </div>
+         </div>
+     </nav>
+
+     <div class="container">
+         <!-- Left sidebar -->
+         <div class="left_sidebar">
+             <div class="imp__links">
+                <a href="#"><img src="img/file/images/news.png" alt=""> Latest News</a>
+                <a href="#"><img src="img/file/images/friends.png" alt=""> Friends</a>
+                <a href="#"><img src="img/file/images/group.png" alt=""> Group</a>
+                <a href="#"><img src="img/file/images/marketplace.png" alt=""> MarketPlace</a>
+                <a href="#"><img src="img/file/images/watch.png" alt=""> Watch</a>
+                <a href="#" >See More</a>
+             </div>
+             <div class="shortcut__link">
+                 <p>Your Shortcut's</p>
+                 <a href="#"><img src="img/file/images/shortcut-1.png" alt=""> web Developers</a>
+                 <a href="#"><img src="img/file/images/shortcut-2.png" alt=""> web design course</a>
+                 <a href="#"><img src="img/file/images/shortcut-3.png" alt=""> Full stack developer</a>
+                 <a href="#"><img src="img/file/images/shortcut-4.png" alt=""> website expart</a>
+             </div>
+         </div>
+
+
+         <!-- MAIN CONTENT -->
+         <div class="main__content">
+           <div class="sotry__gallary">
+               <div class="story story1">
+                   <img src="img/file/images/upload.png" alt="">
+                   <p>Post Story</p>
+               </div>
+               <div class="story story2">
+                <img src="img/member/member-1.jpg" alt="">
+                <p>Jecika </p>
+            </div>
+            <div class="story story3">
+                <img src="img/member/member-2.jpg" alt="">
+                <p>William </p>
+            </div>
+            <div class="story story4">
+                <img src="img/member/member-3.jpg" alt="">
+                <p>Meri </p>
+            </div>
+            <div class="story story5">
+                <img src="img/member/member-4.jpg" alt="">
+                <p>Samir</p>
+            </div>
+
+           </div>
+
+
+
+          <!-- ==========WRITE POST SECTION -->
+          <div class="write__post-container">
+              <div class="user__profile">
+                  <img src="img/profile/profile.jpg" alt="">
+                  <div>
+                      <p>John Nicholson</p>
+                      <small>Public <i class='bx bxs-down-arrow'></i></small>
+                  </div>
+              </div>
+
+              <!-- ===POST ==== -->
+
+              <div class="post__input-container">
+                  <textarea  rows="3" placeholder="What's On your Mind, Jhon"></textarea>
+
+                  <div class="add__post-linik">
+                      <a href="#"><img src="img/file/images/live-video.png" alt=""> Live Video</a>
+                      <a href="#"><img src="img/file/images/photo.png" alt=""> Photo / Video</a>
+                      <a href="#"><img src="img/file/images/feeling.png" alt=""> Felling Activity</a>
+                  </div>
+              </div>
+          </div>
+
+
+          <!--  public post section -->
+          <div class="post__container">
+              <div class="post__row">
+                <div class="user__profile">
+                    <img src="img/member/member-1.jpg" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                       <span>Aug 24 2021, 10:30AM</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+              </div>
+           
+            <p class="post__text"> Paris is <span>Dream City</span> Life Is very Beautifull It you Enjoy It <b>#Love Enemy</b> </p>
+
+            <img src="img/news feed/feed-img-1.jpg" alt="" class="post__img">
+
+            <!-- like commemt and sheree icons -->
+
+            <div class="post__row">
+                <div class="activity__icons">
+                   <div><img src="img/file/images/like-blue.png" alt="">135</div>
+                   <div><img src="img/file/images/comments.png" alt="">42</div>
+                   <div><img src="img/file/images/share.png" alt="">30</div>
+                </div>
+                <div class="post__profile-icons">
+                    <img src="img/profile/profile.jpg" alt=""><i class='bx bxs-down-arrow'></i>
+                </div>
+            </div>
+          </div>  
+
+
+
+        <!--  public post tow -->
+
+
+        <div class="post__container">
+            <div class="post__row">
+              <div class="user__profile">
+                <img src="img/member/member-2.jpg" alt="">
+                  <div>
+                      <p>Mega Aliea</p>
+                     <span>Sept 10 2021, 9:00AM</span>
+                  </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+         
+          <p class="post__text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident consequatur, est odit beatae et iste! </p>
+
+          <img src="img/news feed/feed-img-2.jpg" alt="" class="post__img">
+
+          <!-- like commemt and sheree icons -->
+
+          <div class="post__row">
+              <div class="activity__icons">
+                 <div><img src="img/file/images/like-blue.png" alt="">935</div>
+                 <div><img src="img/file/images/comments.png" alt="">95</div>
+                 <div><img src="img/file/images/share.png" alt="">60</div>
+              </div>
+              <div class="post__profile-icons">
+                  <img src="img/profile/profile.jpg" alt=""><i class='bx bxs-down-arrow'></i>
+              </div>
+          </div>
+        </div> 
+
+
+        <!-- post image three -->
+        <div class="post__container">
+            <div class="post__row">
+              <div class="user__profile">
+                <img src="img/member/member-3.jpg" alt="">
+                  <div>
+                      <p>Nicolas Megas</p>
+                     <span>Jun 4 2021, 11:32PM</span>
+                  </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+         
+          <p class="post__text"> Paris is <span>Dream City</span> Life Is very Beautifull It you Enjoy It <b>#Love Enemy</b> </p>
+
+          <img src="img/news feed/feed-img-3.jpg" alt="" class="post__img">
+
+          <!-- like commemt and sheree icons -->
+
+          <div class="post__row">
+              <div class="activity__icons">
+                 <div><img src="img/file/images/like-blue.png" alt="">785</div>
+                 <div><img src="img/file/images/comments.png" alt="">92</div>
+                 <div><img src="img/file/images/share.png" alt="">77</div>
+              </div>
+              <div class="post__profile-icons">
+                  <img src="img/profile/profile.jpg" alt=""><i class='bx bxs-down-arrow'></i>
+              </div>
+          </div>
+        </div> 
+
+        <!-- post img four -->
+
+        <div class="post__container">
+            <div class="post__row">
+              <div class="user__profile">
+                <img src="img/member/member-4.jpg" alt="">
+                  <div>
+                      <p>Lianda Adas</p>
+                     <span>March 01 2021, 7:30AM</span>
+                  </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+         
+          <p class="post__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium alias sapiente soluta repellat corrupti.</p>
+
+          <img src="img/news feed/feed-img-4.jpg" alt="" class="post__img">
+
+          <!-- like commemt and sheree icons -->
+
+          <div class="post__row">
+              <div class="activity__icons">
+                 <div><img src="img/file/images/like-blue.png" alt="">305</div>
+                 <div><img src="img/file/images/comments.png" alt="">82</div>
+                 <div><img src="img/file/images/share.png" alt="">70</div>
+              </div>
+              <div class="post__profile-icons">
+                  <img src="img/profile/profile.jpg" alt=""><i class='bx bxs-down-arrow'></i>
+              </div>
+          </div>
+        </div> 
+      
+         <button type="button" class="load__more-btn">Load More</button>
+
+
+         </div>
+         <!-- RIGHT SIDEBAR -->
+
+
+         <div class="right__sidebar">
+            <div class="sidebar__title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+             <div class="event">
+                 <div class="left__event">
+                    <h3>10</h3>
+                    <span>August</span>
+                 </div>
+                 <div class="right__event">
+                   <h4>Social Media</h4>
+                   <p><i class='bx bx-map'></i> Willson Tech Park</p>
+                   <a href="#">More Info</a>
+                 </div>
+             </div>
+
+             <div class="event">
+                <div class="left__event">
+                   <h3>17</h3>
+                   <span>Sept</span>
+                </div>
+                <div class="right__event">
+                  <h4>CPA marketing</h4>
+                  <p><i class='bx bx-map'></i> Bangal Bazar</p>
+                  <a href="#">More Info</a>
+                </div>
+            </div>
+           
+            <div class="sidebar__title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+               <img src="img/ads/advertizement.jpg" alt="" class="sidebar__ads">
+
+               <div class="sidebar__title">
+                <h4>Message</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online__list">
+                <div class="online">
+                    <img src="img/member/member-1.jpg" alt="">
+                </div>
+                <p>Jacika Monu</p>
+            </div>
+            <div class="online__list">
+                <div class="online">
+                    <img src="img/member/member-2.jpg" alt="">
+                </div>
+                <p>Halima Sultana</p>
+            </div>
+            <div class="online__list">
+                <div class="online">
+                    <img src="img/member/member-3.jpg" alt="">
+                </div>
+                <p>Mozaiq aii</p>
+            </div>
+         </div>
+     </div>
+
+     <div class="footer">
+         <p>Coppyright 2021 -Tanzil</p>
+     </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
